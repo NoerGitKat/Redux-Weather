@@ -9,7 +9,7 @@ export function fetchWeather(city) {
 	const url = `${ROOT_URL}&q=${city},NL`;
 	const request = axios.get(url);
 
-	console.log(`Request: ${request}`);
+	console.log('Request: ', request);
 
 	//actions always return an object that must have a type
 	return {
