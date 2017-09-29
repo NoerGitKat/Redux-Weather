@@ -1,0 +1,15 @@
+td, th {
+	vertical-align: middle;
+	text-align: center;
+}
+
+svg {
+	height: 150px;
+	width: 220px;
+}
+
+/* Google Maps */
+td:first-of-type, td:first-of-type > div {
+	height: 150px;
+	width: 220px;
+}
